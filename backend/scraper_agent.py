@@ -1,13 +1,11 @@
 from crawl4ai import Crawl4AI
-from litellm import OpenAI  # ou un autre LLM que tu utilises
+from litellm import OpenAI 
 
 c4ai = Crawl4AI()
 llm = OpenAI(model="gpt-4", api_key="TON_API_KEY")  # ou Mistral, Ollama, etc.
 
 def generate_strategy(prompt: str):
-    """
-    Transforme l'objectif utilisateur en instructions de scraping.
-    """
+ 
     instruction = llm(f"""
     Tu es un agent de scraping intelligent. 
     Voici l'objectif : {prompt}
@@ -19,9 +17,6 @@ def generate_strategy(prompt: str):
     return instruction
 
 def execute_strategy(strategy: str):
-    """
-    Exécute la stratégie via Crawl4AI.
-    """
     # Ici on parse la stratégie pour récupérer l'URL et les infos
     url = strategy.split("URL:")[-1].split("\n")[0].strip()
     data = c4ai.scrape(url, export_format="json")
@@ -33,3 +28,4 @@ if __name__ == "__main__":
     print("Stratégie générée :", strategy)
     data = execute_strategy(strategy)
     print("Résultat JSON :", data)
+
