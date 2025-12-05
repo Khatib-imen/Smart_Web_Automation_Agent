@@ -1,5 +1,6 @@
 # 🕷️ Smart Web Automation Agent  
-> *Scraping + Compréhension d’Objectif + Actions Réelles en Temps Réel*
+> *Scraping + Compréhension d’Objectif + Actions Réelles en Temps Réel**
+<p align="center"> <img src="https://img.shields.io/badge/AI-Agent-black?style=for-the-badge"/> <img src="https://img.shields.io/badge/DeepSeek-Powered-blue?style=for-the-badge"/> <img src="https://img.shields.io/badge/Web_Automation-Active-green?style=for-the-badge"/> </p>
 
 ---
 
