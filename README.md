@@ -4,8 +4,7 @@
 
 ---
 
-> ## 🌐 Description du Projet
-> ────────────────
+ ## 🌐 Description du Projet
  **Smart Web Automation Agent** est un agent IA capable de :
  - 🔍 Scraper automatiquement n’importe quel site web  
  - 🧠 Comprendre un objectif utilisateur en langage naturel  
@@ -18,8 +17,7 @@
 
 ---
 
-> ## 🚀 Fonctionnalités Principales
-> ────────────────
+ ## 🚀 Fonctionnalités Principales
 
 ### ✔️ 1. Scraper un site web
  - Entrer une **URL**  
@@ -33,7 +31,7 @@
  - “Retirer le mot promo”  
  - “Enlever la bannière rouge”  
  - “Effacer la phrase Nouveau produit”  
->
+
  L’IA déduit :
  - 🎯 L’objectif exact  
  - 🧩 Les éléments visés  
@@ -41,19 +39,18 @@
  - ⚡ Le plan d'exécution  
 
 ### ✔️ 3. Actions en temps réel
-> Capable de :  
+ Capable de :  
  - 🖼️ Supprimer images spécifiques  
  - 📝 Effacer mots/phrases dans la page  
  - 🎨 Modifier couleur/style/structure  
  - 🗑️ Retirer sections, pubs, divs  
  - 🔧 Refaire la mise en page  
->
-> Tout cela **se produit directement sur le site réel**, visible par l’utilisateur.
+
+ Tout cela **se produit directement sur le site réel**, visible par l’utilisateur.
 
 ---
 
 > ## 🧠 Technologies Utilisées
-> ────────────────
 
 ### Backend
  - Python 3.12  
