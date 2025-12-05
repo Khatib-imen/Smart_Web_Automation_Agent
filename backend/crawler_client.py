@@ -8,8 +8,8 @@ async def crawl_website_async(url: str):
         try:
             result = await crawler.arun(
                 url=url,
-                export_format="dict",   # Retourne un dict directement
-                render_js=True          # ⚡ rend les sites dynamiques
+                export_format="dict", 
+                render_js=True         
             )
             # Convertir en dict pur
             if hasattr(result, "dict"):
@@ -24,3 +24,4 @@ async def crawl_website_async(url: str):
 def crawl_website(url: str):
     """Fonction synchrone pour Flask"""
     return asyncio.run(crawl_website_async(url))
+
