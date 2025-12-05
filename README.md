@@ -7,14 +7,14 @@
 > ## 🌐 Description du Projet
 > ────────────────
 > **Smart Web Automation Agent** est un agent IA capable de :
-> - 🔍 Scraper automatiquement n’importe quel site web  
-> - 🧠 Comprendre un objectif utilisateur en langage naturel  
-> - 🕹️ Exécuter des actions réelles en temps réel via extension navigateur  
-> - 🧷 Identifier dynamiquement les bons sélecteurs CSS  
-> - 🎥 Afficher les résultats en démo live dans une interface UI  
->
-> Le tout **sans règles codées manuellement** :  
-> → L’IA choisit *elle-même* la meilleure stratégie.
+ - 🔍 Scraper automatiquement n’importe quel site web  
+ - 🧠 Comprendre un objectif utilisateur en langage naturel  
+ - 🕹️ Exécuter des actions réelles en temps réel via extension navigateur  
+ - 🧷 Identifier dynamiquement les bons sélecteurs CSS  
+ - 🎥 Afficher les résultats en démo live dans une interface UI  
+
+ Le tout **sans règles codées manuellement** :  
+ → L’IA choisit *elle-même* la meilleure stratégie.
 
 ---
 
@@ -86,3 +86,8 @@
 ```bash
 git clone https://github.com/Khatib-imen/Smart_Web_Automation_Agent.git
 cd Smart_Web_Automation_Agent
+
+
+👨‍💻 Auteur
+
+Imen Khatib
